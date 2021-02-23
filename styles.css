@@ -1,0 +1,172 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:  'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+h2{
+
+  font-size: 2.5rem;
+}
+h3{
+  
+  font-size: 1.5rem;
+}
+.big-heading{
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+body{
+  font-family:'Montserrat';
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/*Title Image*/
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+/*Navigation Bar*/
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  pointer-events: none;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+/*Download Buttons*/
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/*Features*/
+
+.feature-img{
+  font-size: 3.5rem;
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.feature-img:hover{
+  color: #ff4c68;
+}
+#features{
+  text-align: center;
+  padding: 50px 0 50px;
+  position: relative;
+  background-color: #fff;
+}
+.feature-col{
+  padding: 60px;
+}
+
+/*Testimonials*/
+
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/*Press*/
+
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 4%;
+}
+
+/*Pricing*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.card-button{
+  width: 100%;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/*Bottom*/
+
+#cta{
+  background-color:#ff4c68;
+  padding: 5% 15% 5%;
+  text-align: center;
+}
+.cta-heading{
+  font-size: 2.5rem;
+  color: white;
+}
+.cta-button{
+  margin: 5% 3% 5% 3%;
+}
+
+/*Footer*/
+
+#footer{
+  text-align: center;
+  padding: 50px;
+}
+.footer-icon{
+  margin: 1%;
+  color: #000;
+}
+.footer-icon:hover{
+  color: #ff4c68;
+}
+.footer-paragraph{
+  margin: 2% auto 0;
+}
+
+@media (max-width: 1070px) {
+  .title-row{
+    text-align: center;
+  }
+  .title-img{
+    transform: none;
+    position: static;
+    width: 50%;
+  }
+}
